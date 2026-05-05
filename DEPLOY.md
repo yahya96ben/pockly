@@ -22,7 +22,7 @@ Ce guide te mène de zéro à une app en production en **30-60 minutes** la prem
 5. Ouvre le fichier `database/schema.sql` de ce ZIP, **copie tout son contenu**
 6. Colle dans l'éditeur Supabase, clique **"Run"** (en bas à droite)
 7. Tu devrais voir `Success. No rows returned` ou similaire
-8. Va dans **Table Editor** → tu dois voir 4 tables : `users`, `restaurants`, `products`, `orders`. Et 3 restaurants de démo dans `restaurants`.
+8. Va dans **Table Editor** → tu dois voir 4 tables : `users`, `restaurants`, `products`, `orders`. Et 4 restaurants de démo dans `restaurants`.
 
 ### Récupère tes clés Supabase
 
@@ -87,7 +87,7 @@ git push -u origin main
    → tu dois voir `{"status":"ok","db":"reachable","time":"..."}`
 
 2. **Test frontend** : ouvre `https://TON-PROJET.vercel.app`
-   → tu dois voir la page d'accueil Pockly avec les 3 restaurants démo
+   → tu dois voir la page d'accueil Pockly avec les restaurants de démo
 
 3. **Test signup** :
    - Clique "Espace commerçant" → "Créer un compte"
